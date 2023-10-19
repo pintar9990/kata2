@@ -17,6 +17,6 @@ public class Main {
         Map<String, Double> meanValues = meanCalculator.calculate(people);
 
         System.out.println("Media de Altura: " + meanValues.get("height"));
-        System.out.println("Media de Peso: "+ meanValues.get("weight"));
+        System.out.println("Media de Peso: " + meanValues.get("weight"));
     }
 }
